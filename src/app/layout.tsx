@@ -1,6 +1,13 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono, Instrument_Serif, Archivo_Black } from "next/font/google";
+import {
+  Geist,
+  Geist_Mono,
+  Instrument_Serif,
+  Archivo_Black,
+} from "next/font/google";
 import { SITE } from "@/lib/site";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/next";
 import { PROJECTS } from "./components/portfolioData";
 import "./globals.css";
 
@@ -262,9 +269,7 @@ const structuredData = {
           description: p.desc,
           dateCreated: p.yr,
           keywords: p.stack.join(", "),
-          ...(p.image
-            ? { image: `${SITE.url}${p.image}` }
-            : {}),
+          ...(p.image ? { image: `${SITE.url}${p.image}` } : {}),
           creator: { "@id": PERSON_ID },
         },
       })),
@@ -326,12 +331,42 @@ const structuredData = {
       "@type": "BreadcrumbList",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Home", item: SITE.url },
-        { "@type": "ListItem", position: 2, name: "About", item: `${SITE.url}/#about` },
-        { "@type": "ListItem", position: 3, name: "Strengths", item: `${SITE.url}/#strengths` },
-        { "@type": "ListItem", position: 4, name: "Work", item: `${SITE.url}/#work` },
-        { "@type": "ListItem", position: 5, name: "Experience", item: `${SITE.url}/#exp` },
-        { "@type": "ListItem", position: 6, name: "Stack", item: `${SITE.url}/#stack` },
-        { "@type": "ListItem", position: 7, name: "Contact", item: `${SITE.url}/#contact` },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "About",
+          item: `${SITE.url}/#about`,
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "Strengths",
+          item: `${SITE.url}/#strengths`,
+        },
+        {
+          "@type": "ListItem",
+          position: 4,
+          name: "Work",
+          item: `${SITE.url}/#work`,
+        },
+        {
+          "@type": "ListItem",
+          position: 5,
+          name: "Experience",
+          item: `${SITE.url}/#exp`,
+        },
+        {
+          "@type": "ListItem",
+          position: 6,
+          name: "Stack",
+          item: `${SITE.url}/#stack`,
+        },
+        {
+          "@type": "ListItem",
+          position: 7,
+          name: "Contact",
+          item: `${SITE.url}/#contact`,
+        },
       ],
     },
   ],
@@ -359,6 +394,8 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
       </head>
+      <SpeedInsights />
+      <Analytics />
       <body>{children}</body>
     </html>
   );
