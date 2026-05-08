@@ -175,7 +175,9 @@ nav.scrolled { border-bottom-color: var(--color-rule); }
 
 /* ---------- Loader robot (intricate nested CSS, kept whole) ---------- */
 .agent-loader {
-  position: fixed; inset: 0;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: 9999;
   background: var(--color-bg);
   display: flex; align-items: center; justify-content: center;
   transition: opacity .6s ease, visibility .6s;
