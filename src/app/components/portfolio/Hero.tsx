@@ -51,7 +51,12 @@ export default function Hero() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/images/dev.jpg"
-              alt="marlon"
+              alt="marlon gacrama jr — full-stack and ai engineer based in cebu, philippines"
+              fetchPriority="high"
+              loading="eager"
+              decoding="async"
+              width={840}
+              height={840}
               className="w-full h-[110%] object-cover object-[center_30%] will-change-transform"
             />
           </div>
