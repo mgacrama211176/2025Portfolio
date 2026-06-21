@@ -51,7 +51,7 @@ export default function Contact() {
       <div className="wrap">
         <div className="flex flex-wrap items-baseline justify-between gap-x-8 gap-y-6 mb-[clamp(36px,5vw,72px)]">
           <span className="font-mono text-xs text-ink-3 tracking-wider">
-            07 / contact
+            08 / contact
           </span>
           <span className="font-mono text-xs text-ink-3 tracking-wider">
             replies in &lt;24h

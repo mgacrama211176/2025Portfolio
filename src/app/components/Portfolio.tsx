@@ -4,6 +4,7 @@ import Contact from "./portfolio/Contact";
 import Evolution from "./portfolio/Evolution";
 import Experience from "./portfolio/Experience";
 import Footer from "./portfolio/Footer";
+import Github from "./portfolio/Github";
 import Hero from "./portfolio/Hero";
 import Loader from "./portfolio/Loader";
 import MotionRoot from "./portfolio/MotionRoot";
@@ -15,7 +16,7 @@ import Work from "./portfolio/Work";
 export default function Portfolio() {
   return (
     <>
-      <Loader />
+      {/* <Loader /> */}
       <Nav />
       <main>
         <Hero />
@@ -25,6 +26,7 @@ export default function Portfolio() {
         <Experience />
         <Stack />
         <Evolution />
+        <Github />
         <Contact />
       </main>
       <Footer />

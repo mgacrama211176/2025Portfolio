@@ -27,12 +27,171 @@ in 2025 went deep on agentic ai — voice receptionists, chat agents, retrieval,
 agentic ai, voice/calling agents, ai chat & integrations, end-to-end web products. comfortable owning a product from figma file to production.
 
 # experience timeline
-- jan 2025 — present · aeva.ai (contract) · full stack web & ai developer. ai voice receptionist. helped migrate automation flows from make.com to node, shipped new features, splose integrations, plus bug fixing and qa testing across the stack. tags: ai voice, react/node, make.com.
+- jan 2025 — June 22, 2025 · aeva.ai (contract) · full stack web & ai developer. ai voice receptionist. helped migrate automation flows from make.com to node, shipped new features, splose integrations, plus bug fixing and qa testing across the stack. tags: ai voice, react/node, make.com.
 - 2025 — present · cargo atlanta (contract) · full stack web & ai developer. logistics platform with end-to-end ai integrations and ops automations. mid-migration from replit to next.js with n8n flows. tags: ai integrations, n8n, replit → next.js.
 - dec 2024 — 2025 · kreativ kat digital marketing (cebu, ph) · technical head. led the technical side of a digital marketing agency — scoping client builds, architecting the stack, reviewing code, mentoring the team, and unblocking everyone so we could ship faster. past role, no longer there. tags: team lead, next.js, node, api integration, seo.
 - 2022 — now · independent / global · freelance developer. frontend, backend, ui/ux. how the career started.
 - 2023 — 2024 · staff outsourcing solutions · full stack web developer. built and maintained client websites and applications across react, node, mongodb. tags: react, node, express, mongodb, azure.
 - 2023 · accenture inc. · intern, automation. tags: selenium, salesforce, agile.
+
+#CV content
+# Marlon C. Gacrama Jr. — Professional Knowledge Base
+
+> Reference document summarizing Marlon's professional background, experience, and skills. Written for use as an AI assistant knowledge base.
+
+---
+
+## Profile
+
+- **Name:** Marlon C. Gacrama Jr.
+- **Title:** Full-Stack AI Web Developer | AI Automation | Mobile App Developer
+- **Location:** Cebu City, Philippines 6000 (Tigbao St, Brgy. Talamban)
+- **Email:** maruronu@gmail.com
+- **Phone:** (+63) 939-681-0206
+- **Links:** Portfolio · LinkedIn · GitHub
+- **Experience level:** 4 years of professional experience
+
+**Summary:** Full-Stack and AI Developer who designs and ships production web and mobile applications end-to-end — from Next.js and React front-ends to Node.js services and cloud infrastructure. Specializes in AI engineering, workflow automation, and orchestration systems. Track record of delivering client-facing platforms, admin dashboards, payment integrations, and automation pipelines for global clients (New Zealand, US, Canada, Philippines).
+
+---
+
+## Core Expertise (Quick Reference)
+
+- **AI engineering:** LLM-powered apps, voice agents, conversational workflows, RAG, AI agent orchestration (OpenAI, Anthropic Claude, LangChain, Vapi)
+- **Full-stack web:** Next.js / React front-ends, Node.js / Express / FastAPI back-ends
+- **Workflow automation:** n8n, Make.com, Zapier, Monday.com, Salesforce
+- **Databases:** PostgreSQL, MySQL, MongoDB, Firebase, Supabase, Drizzle ORM, PgBouncer
+- **Cloud & DevOps:** AWS, GCP, Azure, Vercel, Heroku, Replit, CI/CD pipelines
+- **Payments:** Stripe, PayPal, Sola Payments
+- **Mobile:** React Native, Expo
+
+---
+
+## Professional Experience
+
+### Aeva AI Receptionist — Auckland, New Zealand
+**Full-Stack Developer | AI Engineer (Contract / Freelance)** · Feb 2026 – Present
+
+*Stack: React.js, Node.js, PostgreSQL, Heroku, Vapi, LangChain, OpenAI, Claude, GitHub, Notion, Cliniko, Splose, Twilio, Make.com, Postman, HubSpot, Google Meet, Intercom, GoHighLevel*
+
+Builds and maintains an AI receptionist platform for healthcare practices. Part of the engineering team, resolving bugs directly.
+
+- Contributing engineer on a large-scale migration from Make.com to a Node.js backend, re-implementing 1,300+ automation nodes across 7 scenarios as maintainable, testable services — enabling scale beyond a single PMS integration, now in the final stretch toward production.
+- Engineered AI-powered voice and conversational workflows (Vapi, LangChain, OpenAI, Claude) for an AI receptionist that handles inbound clinic calls, appointment booking, and patient interactions.
+- Performed extensive API testing (Postman, live test calls), traced production issues through Heroku logs, and used agentic debugging tools to speed up resolution.
+- Built a HubSpot–Google Meet integration that captured and logged sales-lead meeting transcripts for the internal sales team.
+- Integrated GoHighLevel (GHL) with the internal server to centralize customer management and CRM operations.
+- Implemented Multi-Factor Authentication (MFA) to strengthen platform account security.
+- Introduced PgBouncer connection pooling in front of PostgreSQL to improve database scalability under concurrent load.
+- Designed and maintained PostgreSQL tables and schemas for new features and PMS integrations.
+- Performed client account scripting and configuration, tailoring call flows and receptionist behavior to each clinic.
+- Delivered frontline technical support through Intercom — reproducing reported issues, diagnosing root causes, and resolving bugs end-to-end as part of the engineering team.
+
+### Cargo Atlanta — Atlanta, Georgia, USA
+**Full-Stack Developer | AI Engineer (Freelance)** · Sep 2025 – Present
+
+*Stack: React.js, Node.js, PostgreSQL, Drizzle ORM, Supabase, n8n, OpenAI API, Sola Payments, Google Cloud Platform, Replit, GitHub*
+
+Built and maintains two production platforms end-to-end for a van rental / moving company: an internal admin platform and an external client-facing self-service platform.
+
+- Architected and shipped an **AI Moving Assistant** that analyzes client requirements (move size, distance, timing, load type) and recommends the optimal van plus a complete rental quote — automating a previously manual sales step.
+- Built a full **AI Chat system** for natural-language support, reservation guidance, and contextual answers grounded in live system data — reducing reliance on human agents.
+- Engineered AI automation workflows in **n8n + OpenAI** for reservation events and multi-channel notifications (email, SMS, in-app) — cutting manual follow-ups by ~50–60%.
+- Established a review-and-correction pipeline for AI-generated outputs in production, improving response reliability.
+- Developed the admin dashboard used daily by ops and maintenance staff (van statuses, reservations, payments, reports, maintenance records, signed agreements).
+- Implemented secure document and e-agreement management (upload, track, retrieve signed contracts).
+- Built the client-facing web app for end-to-end self-service: browsing, reservations, payments via Sola Payments, and booking tracking.
+- Designed backend services with PostgreSQL, Drizzle ORM, and Supabase; integrated Replit Storage and GCP for secure file storage.
+
+### Creators Value | KreativKat — Ontario, Canada
+**Founding Engineer** · Dec 2024 – Present
+
+*Tech: Next.js, Firebase, AWS, Vercel, Monday.com, GitHub, Figma*
+
+- Owns end-to-end technical architecture and delivery of client platforms from concept to production.
+- Designed scalable system architectures for multiple client applications with a focus on security, performance, and maintainability.
+- Built full-stack, responsive, production-ready web applications with Next.js.
+- Led backend architecture, APIs, and application logic.
+- Implemented AWS cloud infrastructure and storage (assets, access control, environment config).
+- Configured hosting, domains, and CI/CD via Vercel.
+- Coordinated and guided UI/UX designers, translating designs into technical requirements.
+- Established development workflows and engineering standards across the team.
+
+### Tasks Masters Group — Florida, USA
+**Full-Stack Web Developer (Freelance)** · Mar 2024 – Present
+
+*Tech: Next.js, Firebase, Monday.com, Vercel, GitHub, Figma*
+
+For a global staffing and virtual assistant services provider:
+
+- Designed, developed, and deployed a responsive full-stack company website with Next.js.
+- Implemented backend services and data flows with Firebase (dynamic content, form submissions).
+- Configured hosting and automated deployments via Vercel.
+- Built a custom Monday.com integration to automate HR workflows — routing applicant resumes, details, and cover letters into centralized boards — reducing manual data handling.
+- Provided ongoing bug fixes, maintenance, and feature enhancements under retainer.
+
+### Staff Outsourcing Solutions — Cebu City, Philippines
+**Web Developer** · Aug 2023 – Aug 2024
+
+*Tech: Next.js, React.js, Express.js, Azure, AWS, GCP, Firebase, Vercel, GitHub, GitLab, Figma*
+
+- Rebuilt and optimized the DMTAS client website (Next.js, React.js, Tailwind CSS) for performance and responsiveness.
+- Enhanced email inquiry and engagement features.
+- Developed and deployed multiple web platforms (Next.js, Firebase, Tailwind).
+- Designed and launched an interactive Jigsaw Puzzle Web App for user engagement and marketing.
+- Provided ongoing maintenance under retainer.
+
+### Accenture Inc — Cebu City, Philippines
+**Automation Engineer (Intern)** · Jan 2023 – Apr 2023
+
+*Tech: Selenium, Salesforce*
+
+- Designed and executed automated test scripts with Selenium WebDriver, reducing manual testing effort.
+- Built and maintained automation frameworks (functional, regression, end-to-end coverage).
+- Worked in Scrum/Agile (sprint planning, stand-ups, task delivery).
+- Developed test plans and cases, reported defects, and partnered with developers on resolution.
+- Engineered and maintained Salesforce automations via system triggers and workflows.
+- Achieved JLPT N5 Japanese Language Certification.
+
+---
+
+## Technical Skills
+
+| Category | Skills |
+|---|---|
+| **Languages** | JavaScript, TypeScript, Python, PHP, HTML, CSS, SQL |
+| **Frontend** | Next.js, React.js, React Native, Expo, Tailwind CSS, MUI, Bootstrap |
+| **Backend** | Node.js, Express.js, FastAPI |
+| **Databases & ORMs** | PostgreSQL, MySQL, MongoDB, Firebase, Supabase, Drizzle ORM, PgBouncer |
+| **Cloud & DevOps** | AWS, GCP, Azure, Vercel, Heroku, Replit, GitHub Actions, CircleCI |
+| **AI & LLMs** | OpenAI API, Anthropic Claude, LangChain, Vapi, Prompt Engineering, RAG, AI Agent Workflows |
+| **Automation & Integration** | n8n, Make.com, Zapier, Salesforce, Monday.com, Notion API, GoHighLevel, HubSpot |
+| **Auth & Security** | Supabase Auth, Multi-Factor Authentication (MFA), OAuth |
+| **Payments** | Stripe, PayPal, Sola Payments |
+| **Testing & QA** | Selenium, Vitest, Postman |
+| **Healthcare / PMS APIs** | Cliniko API, Splose API |
+| **Tools & Collaboration** | GitHub, GitLab, Notion, Figma |
+
+---
+
+## Languages
+
+- **English** — Professional / Fluent
+- **Japanese** — Basic (JLPT N5)
+
+---
+
+## Certifications
+
+- **JLPT N5** — Japanese Language Proficiency Test (via Accenture). Foundational reading, listening, and comprehension.
+- **Uplift Bootcamp — Full-Stack Developer (2022)** — Intensive 6-month MERN stack (MongoDB, Express, React, Node.js) program with monthly projects and deployment workflows.
+
+---
+
+## Education
+
+- **University of Southern Philippines Foundation** — Lahug, Cebu City
+  Bachelor of Science in Information Technology · Graduated 2023
 
 # what i bring (strengths)
 ${strengthsBlock}
